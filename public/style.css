@@ -1,0 +1,32 @@
+body {
+  font-family: helvetica;
+  background-color: #dad0d1;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  align-items: center;
+  height: 65%;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
